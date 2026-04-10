@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { validateRutMiVita } from '@/lib/mivita';
-import { logConsultation, initDb } from '@/lib/db';
+import { validateRutMiVita } from '../../../lib/mivita';
+import { logConsultation, initDb } from '../../../lib/db';
 
 // Ensure DB is initialized (this is a simple way for this small app)
 let dbInitialized = false;
